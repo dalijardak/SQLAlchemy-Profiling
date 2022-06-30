@@ -22,14 +22,6 @@ This command should be launch every time you start your PC
 venv\scripts\activate
 ```
 
-## Desactivate virtual environment
-
-```
-deactivate
-```
-
----
-
 # Start the application
 
 ```
@@ -37,3 +29,11 @@ $env:FLASK_APP = "runner.py"
 pip install -r requirements.txt
 flask run
 ```
+
+## Desactivate virtual environment
+
+```
+deactivate
+```
+
+---
