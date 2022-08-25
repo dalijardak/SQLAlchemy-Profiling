@@ -1,6 +1,24 @@
-# SQLAlchemy
+# SQLAlchemy Profiling
 
----
+This is a python project that collects statistics about SQL queries
+rendered with SQLAlchemy ORM with a SQLite database and save them in a json file "results.json".
+
+Collected data are :
+
+- Database Type
+- Database Name
+- Connection Open Time
+- SQL Query
+- SQL Table
+- SQL Query Type (SELECT, DELETE, UPDATE, INSERT etc...)
+- Query Time
+- Row Count
+
+This project can help in profiling SQL queries and optimizing them. It can be used with any SQL database.
+
+## About SQLAlchemy
+
+SQLAlchemy is an open-source SQL toolkit and object-relational mapper for the Python programming language.
 
 # Setup Virtual Environment
 
