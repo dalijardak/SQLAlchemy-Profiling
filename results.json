@@ -1,0 +1,52 @@
+[
+    {
+        "db_type": "sqlite",
+        "db_name": "C:/tmp/test.db",
+        "connection_opened_at": 1661444415.7735481,
+        "query_sql": "SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email \nFROM user",
+        "query_table": "user",
+        "query_type": "SELECT",
+        "query_time": 0.04242563247680664,
+        "row_count": -1
+    },
+    {
+        "db_type": "sqlite",
+        "db_name": "C:/tmp/test.db",
+        "connection_opened_at": 1661444427.4726033,
+        "query_sql": "SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email \nFROM user",
+        "query_table": "user",
+        "query_type": "SELECT",
+        "query_time": 0.0019991397857666016,
+        "row_count": -1
+    },
+    {
+        "db_type": "sqlite",
+        "db_name": "C:/tmp/test.db",
+        "connection_opened_at": 1661444661.249434,
+        "query_sql": "DELETE FROM user WHERE user.username = ?",
+        "query_table": "user",
+        "query_type": "DELETE",
+        "query_time": 0.0010039806365966797,
+        "row_count": 9
+    },
+    {
+        "db_type": "sqlite",
+        "db_name": "C:/tmp/test.db",
+        "connection_opened_at": 1661444666.068116,
+        "query_sql": "DELETE FROM user WHERE user.username = ?",
+        "query_table": "user",
+        "query_type": "DELETE",
+        "query_time": 0.0010099411010742188,
+        "row_count": 0
+    },
+    {
+        "db_type": "sqlite",
+        "db_name": "C:/tmp/test.db",
+        "connection_opened_at": 1661444754.6479592,
+        "query_sql": "UPDATE user SET username=? WHERE user.id = ?",
+        "query_table": "user",
+        "query_type": "UPDATE",
+        "query_time": 0.007004499435424805,
+        "row_count": 1
+    }
+]
