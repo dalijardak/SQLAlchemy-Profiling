@@ -1,4 +1,4 @@
-from __init__ import db
+from app import db
 from user import user_blueprint
 from user.model import User
 from flask import jsonify, request
